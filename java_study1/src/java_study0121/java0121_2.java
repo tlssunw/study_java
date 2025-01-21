@@ -10,7 +10,7 @@ public class java0121_2 {
 		
 		System.out.printf("그냥 print처럼 사용 가능");
 		System.out.printf("println처럼 하려면 \n");
-		System.out.printf("다음 줄에 출력 \n");
+		System.out.printf("다음 줄에 출력 \n"); //\n =enter key
 
 	}
 
