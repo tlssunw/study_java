@@ -36,17 +36,54 @@ public class java0204_2 {
 //		}
 //		System.out.println("1부터 10까지의 합" + sum);
 		
-		//문제 풀어보기
-		System.out.println("첫 번째 숫자를 입력하세요 : " + num);
-		System.out.println("두 번째 숫자를 입력하세요 :" + num2);
-		int num = 0;
-		int num2=0;
-		num = sc.nextInt();
-		num2 = sc.nextInt();
 		
-		for(num=0; num2>num; num++) { 
-			num=num+num2;
-		}System.out.println("더한 값은?:" + num );
+//		//문제 풀어보기
+//		int num1 = 0;
+//		int num2=0;
+//		System.out.println("두 숫자를 입력하세요 : ");
+//		num1 = sc.nextInt();
+//		num2 = sc.nextInt();
+//		
+//		int small, big;
+//		if(num1 < num2) {
+//			small = num1;
+//			big = num2;
+//		}else {
+//			small = num2;
+//			big = num1;
+//		}
+//		
+////		// 또다른 방법
+////		if(num1 < num2) {
+////			int temp = num1;
+////			num1 = num2;
+////			num2 = temp;
+////		}
+////		
+//		int sum=0;
+//		for(; small<=big; small++ ) { 
+//			sum = sum+small;
+//		}System.out.println("더한 값은?:" + sum );
+//		
+		
+		
+		
+		// 내가 키보드로 입력한 숫자에 해당하는 구구단 출력하기
+		int num =0;
+		System.out.println("숫자를 입력하세요 :");
+		num = sc.nextInt();
+		
+		for(int i=1; i<=9; i++) {
+			System.out.printf("%d * %d = %d \n", num,i, num*i);
+		}
+		
+		
+//		for (int i=1; i<=9; i++) {
+//			System.out.printf("2*%d=%d \n",i,2*i);
+//		}
+//		System.out.println("2*1="+(2*1));
+//		System.out.println("2*2="+(2*2));
+//		System.out.println("2*3="+(2*3));
 		
 	}
 
