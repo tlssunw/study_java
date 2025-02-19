@@ -32,11 +32,29 @@ public class ClassArray {
 //			System.out.println(members[i].age);
 //		}
 		
-		Member info = new Member();
-
+//		Member info = new Member();
+//
+//		Movie mo = new Movie();
+//		mo.title = "캡틴아메리카";
+//		mo.genre = "액션판타지";
+//		mo.gallery = 1000000;
+//		mo.open = 2025;
+		
+//		Member info = new Member();
+//		System.out.println(info);
+//		System.out.println(info.name);
+//		
+//		Member m1 = new Member();
+//		System.out.println(m1.name);
+		
+		Member info = new Member(20, "군인");
+		
+		System.out.println(info.job);
 		
 		
 		
 	}
 
 }
+
+
