@@ -3,7 +3,7 @@ package customer;
 import java.util.Date;
 import store.Fruit;
 
-public class Buyer {
+public final class Buyer {
 	
 	private int money;
 	private Fruit item;// 구매한 음료 또는 컵과일 저장 변수
