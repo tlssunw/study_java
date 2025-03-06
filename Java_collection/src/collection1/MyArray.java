@@ -28,18 +28,5 @@ public class MyArray {
 //		return arr[index];
 //	}
 	
-	ArrayList list = new ArrayList();
-	list.add(100);
-	list.add(1023);
-	list.add("장미란");
-	list.add("포카칩");
-	list.add(3.144);
 
-	System.out.println( list.size() ); // 크기 - 데이터 몇개 저장되어 있는가
-	System.out.println( list.get(2)); // 인덱스 위치의 데이터 출력
-	System.out.println( list.indexOf("포카칩")); // 배열에 특정데이터 어디?
-	
-	list.remove( 0 ); // 인덱스를 지정하여 해당 데이터 삭제
-	list.remove( "포카칩"); // 삭제 할 데이터 입력하여 삭제
-	System.out.println( list );
 }
