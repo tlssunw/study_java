@@ -18,7 +18,8 @@ public class MemberDao extends DBConnect{
 			while (rs.next()) {
 				Member m = new Member(rs.getLong("id"),
 						rs.getString("member_id"), rs.getString("email"),
-						rs.getString("password"), rs.getString("birth"));
+						rs.getString("password"), rs.getString("birth"),
+						(int)(Math.random()*21+20));
 				// rs에서 객체 하나씩 컬럼명을 주어 데이터 받음
 				// while문으로 컬럼당 하나씩의 데이터를 하나씩출력
 				
