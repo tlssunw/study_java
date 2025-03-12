@@ -11,7 +11,7 @@ public class MemberService implements ActiveService{
 	public MemberService() {
 		this.dao=new MemberDAO(); //DAO 객체 생성
 	}
-	public boolean signIn() {
+	public String signIn() {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("\n---로그인---");
 		
@@ -21,7 +21,11 @@ public class MemberService implements ActiveService{
 		String mPw = scan.nextLine();
 		// 로그인을 위해서 입력한 아이디와 비밀번호를 테이블에 조회한다.
 		
-		return dao.userIdAndPassWord(mId, mPw);
+		if( dao.userIdAndPassWord(mId, mPw))
+			return mId; // 로그인 성공했다면 인력한 아이디리런
+	
+		
+		return null; //로그인 실패 시 null 리턴
 	}
 	
 	public void signUp() {

@@ -14,6 +14,7 @@ import lombok.ToString;
 
 public class School {
 	private int id;
+	private String diff;
 	private String schoolName;
 	private String address;
 	private int postCode;
