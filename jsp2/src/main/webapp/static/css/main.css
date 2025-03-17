@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+#main{
+	width:100%;
+}
+#slide-wrap{
+	width:100%;
+	position:relative;
+}
+#slide-wrap .arrow{
+	position:absolute;
+	left:0; top:0;
+	width:100%;
+	height:100%;
+}
+#slide-wrap .arrow .arrow-left{
+	position:absolute;
+	left: 20px;
+	top: 50%;
+	transform:translate(0, -50%);
+}
+#slide-wrap .arrow .arrow-left i { font-size:40px; }
+
+#slide-wrap .arrow .aroow-right {
+	position:absolute;
+	left: 20px;
+	top: 50%;
+	transform:translate(0, -50%);
+}
+#content-wrap {
+	display:flex;
+	flex-wrap:wrap;
+}
+#content-wrap img{ flex:1;}
