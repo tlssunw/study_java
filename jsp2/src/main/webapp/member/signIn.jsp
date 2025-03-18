@@ -16,7 +16,7 @@
 	
 	<div id="wrap">
 		<%@ include file="../header.jsp" %>
-		
+		x
 		<div id="main">
 			<h2 class="page-tiltle">로그인</h2>
 			<p class="love-word">
@@ -25,7 +25,7 @@
 				행복하게 만드는 것이다.
 			</p>
 			<div id="formWrap">
-				<form id="fm" name="fm" role="form" method="post" action="./signInCheck.jsp">
+				<form id="fm" name="fm" role="form" method="post" action="signin">
 					<div class="input-field">
 						<label for="userId">아이디</label>
 						<input type="text" name="userId" id="userId">

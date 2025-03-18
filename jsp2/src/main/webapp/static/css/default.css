@@ -12,7 +12,7 @@ a{
 	color:inherit;
 }
 img{ width:100%; }
-wrap{ width:1000px; margin:0 auto; position:relative; }
+#wrap{ width:1000px; margin:0 auto; position:relative; }
 
 /* header 부분의 스타일 */
 #header{
@@ -42,7 +42,7 @@ wrap{ width:1000px; margin:0 auto; position:relative; }
 #nav .left .menu-list { width:100%; display:flex; align-items:center; }
 #nav .left .menu-list .menu{
 	width:20%;
-	padding:15px 0; align-items:center;
+	padding:15px 0; text-align:center;
 }                           
 #nav .left .menu-list .menu:hover{
 	color:#ffff;
