@@ -33,7 +33,7 @@ public class MemberDao {
 		
 			}
 	public boolean loginCheck(String email, String pw) {
-		String sql = "select * from test_member"+"where email=? and password=?";
+		String sql = "select * from test_member"+" where email=? and password=?";
 		try {
 			pt=conn.prepareStatement(sql);
 			pt.setString(1, email);
